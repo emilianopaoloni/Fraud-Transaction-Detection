@@ -16,15 +16,13 @@ Ante este desbalanceo, los modelos supervisados tradicionales suelen sobreajusta
 **Técnicas Implementadas**
 Preprocesamiento: Normalización de features (ej. Amount) y manejo de datos desbalanceados.
 
-Modelado: Entrenamiento de un Autoencoder en TensorFlow/Keras para aprender patrones de transacciones legítimas.
+Modelado: Entrenamiento de un Autoencoder en Keras para aprender patrones de transacciones legítimas.
 
 Detección de anomalías: Cálculo del MSE (Error Cuadrático Medio) para identificar transacciones con errores de reconstrucción inusualmente altos (potenciales fraudes).
 
-Evaluación: Métricas como precisión, recall y curva ROC en el conjunto de test.
+Evaluación: Métricas como precisión, recall y matriz de confusion en el conjunto de test.
 
 **Herramientas**
-Python (Pandas, NumPy, Scikit-learn).
-
-TensorFlow/Keras para el Autoencoder.
-
-Matplotlib/Seaborn para visualización.
+- Pandas, NumPy, Scikit-learn.
+- TensorFlow/Keras para el Autoencoder.
+- Matplotlib/Seaborn para visualización.
